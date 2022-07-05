@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Web Suite" duration-ms="12626" started-at="2022-06-25T14:21:02 IDT" finished-at="2022-06-25T14:21:14 IDT">
+    <groups>
+    </groups>
+    <test name="Web Tests" duration-ms="12626" started-at="2022-06-25T14:21:02 IDT" finished-at="2022-06-25T14:21:14 IDT">
+      <class name="sanity.GrafanaAPI">
+        <test-method status="PASS" signature="startSession(java.lang.String)[pri:0, instance:sanity.GrafanaAPI@6e9c413e]" name="startSession" is-config="true" duration-ms="6323" started-at="2022-06-25T14:21:02 IDT" finished-at="2022-06-25T14:21:08 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[api]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSession -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.GrafanaAPI@6e9c413e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-06-25T14:21:08 IDT" finished-at="2022-06-25T14:21:08 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.GrafanaAPI.test01_verifyTeam()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test01_verifyTeam()[pri:0, instance:sanity.GrafanaAPI@6e9c413e]" name="test01_verifyTeam" duration-ms="5215" started-at="2022-06-25T14:21:08 IDT" description="Test 01: Get Team From Grafana" finished-at="2022-06-25T14:21:14 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01_verifyTeam -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:sanity.GrafanaAPI@6e9c413e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2022-06-25T14:21:14 IDT" finished-at="2022-06-25T14:21:14 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.GrafanaAPI@6e9c413e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-06-25T14:21:14 IDT" finished-at="2022-06-25T14:21:14 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.GrafanaAPI.test02_addTeamAndVerify()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test02_addTeamAndVerify()[pri:0, instance:sanity.GrafanaAPI@6e9c413e]" name="test02_addTeamAndVerify" duration-ms="177" started-at="2022-06-25T14:21:14 IDT" description="Test 02: Add Team and Verify" finished-at="2022-06-25T14:21:14 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02_addTeamAndVerify -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:sanity.GrafanaAPI@6e9c413e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-06-25T14:21:14 IDT" finished-at="2022-06-25T14:21:14 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.GrafanaAPI@6e9c413e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-06-25T14:21:14 IDT" finished-at="2022-06-25T14:21:14 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.GrafanaAPI.test03_updateTeamAndVerify()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test03_updateTeamAndVerify()[pri:0, instance:sanity.GrafanaAPI@6e9c413e]" name="test03_updateTeamAndVerify" duration-ms="177" started-at="2022-06-25T14:21:14 IDT" description="Test 03: Update Team And Verify" finished-at="2022-06-25T14:21:14 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test03_updateTeamAndVerify -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:sanity.GrafanaAPI@6e9c413e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-06-25T14:21:14 IDT" finished-at="2022-06-25T14:21:14 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sanity.GrafanaAPI@6e9c413e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2022-06-25T14:21:14 IDT" finished-at="2022-06-25T14:21:14 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sanity.GrafanaAPI.test04_deleteExistingTeam()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test04_deleteExistingTeam()[pri:0, instance:sanity.GrafanaAPI@6e9c413e]" name="test04_deleteExistingTeam" duration-ms="212" started-at="2022-06-25T14:21:14 IDT" description="Test 04: Delete Existing Team From Grafana" finished-at="2022-06-25T14:21:14 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test04_deleteExistingTeam -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:sanity.GrafanaAPI@6e9c413e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2022-06-25T14:21:14 IDT" finished-at="2022-06-25T14:21:14 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="closeSession()[pri:0, instance:sanity.GrafanaAPI@6e9c413e]" name="closeSession" is-config="true" duration-ms="6" started-at="2022-06-25T14:21:14 IDT" finished-at="2022-06-25T14:21:14 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeSession -->
+      </class> <!-- sanity.GrafanaAPI -->
+    </test> <!-- Web Tests -->
+  </suite> <!-- Web Suite -->
+</testng-results>
